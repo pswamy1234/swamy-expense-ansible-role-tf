@@ -1,0 +1,7 @@
+# login_host: db.swamy.fun
+# login_user: root
+# login_password: ExpenseApp@1
+# DB_HOST: db.swamy.fun
+# mysql_root_password: ExpenseApp@1
+app_location: /app
+component: backend
