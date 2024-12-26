@@ -1,5 +1,5 @@
 login_host: db-prod.swamy.fun
 login_user: root
-login_password: ExpenseApp@1
+login_password: Expense123$
 DB_HOST: db-prod.swamy.fun
-mysql_root_password: ExpenseApp@1
+mysql_root_password: Expense123$
