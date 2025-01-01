@@ -3,3 +3,4 @@ login_user: root
 login_password: Expense123$
 DB_HOST: db-prod.swamy.fun
 mysql_root_password: Expense123$
+BACKEND_API_URL: backend.app-prod.swamy.fun
