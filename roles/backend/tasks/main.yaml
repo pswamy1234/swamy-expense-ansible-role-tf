@@ -54,7 +54,7 @@
 
   - name: Copy SQL file from local to remote
     ansible.builtin.copy:
-     src: "backend.sql"          # Make sure this file exists locally
+     src: "backend.sql"  # Fixed path (no leading slash)
      dest: "/app/schema/backend.sql"
      mode: 0644
 
