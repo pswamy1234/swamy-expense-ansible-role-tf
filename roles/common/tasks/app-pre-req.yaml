@@ -17,6 +17,6 @@
 
 - name: download the artifact from nexus
   ansible.builtin.unarchive:
-      src: "https://{{ nexus_url }}/repository/{{ component }}/com/expense/{{ component }}/{{ app_version }}/{{ component }}-{{ app_version }}.zip"
+      src: "https://{{ nexus_url }}/repository/{{ component }}/com/expense/{{ component }}/{{ appVersion }}/{{ component }}-{{ appVersion }}.zip"
       dest: "{{ app_location }}"
       remote_src: yes
